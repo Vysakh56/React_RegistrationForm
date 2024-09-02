@@ -1,0 +1,132 @@
+/* Container styling for the form */
+.registration-form {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #f8f9fa; /* Light background for the form */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e1e4e8;
+}
+
+/* Header styling */
+.registration-form h2 {
+  text-align: center;
+  color: #343a40; /* Dark grey for the header */
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+/* General form field styling */
+.registration-form div {
+  margin-bottom: 20px;
+}
+
+/* Label styling */
+.registration-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #495057; /* Medium grey for labels */
+  font-size: 16px;
+}
+
+/* Input and select styling */
+.registration-form input,
+.registration-form select {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ced4da; /* Light grey border */
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Input focus state styling */
+.registration-form input:focus,
+.registration-form select:focus {
+  border-color: #007bff; /* Blue border on focus */
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(38, 143, 255, 0.2);
+}
+
+/* Error message styling */
+.registration-form .error {
+  display: block;
+  color: #dc3545; /* Red for error messages */
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Button container styling */
+.registration-form .form-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* General button styling */
+.registration-form button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff; /* White text */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  margin: 0 10px;
+}
+
+/* Submit button styling */
+.registration-form .btn-submit {
+  background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
+  margin: 7px;
+  padding: 13px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  /* display: block; */
+}
+
+.registration-form .btn-submit:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Cancel button styling */
+.registration-form .btn-cancel {
+  background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%);
+  margin: 7px;
+  padding: 13px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  /* display: block; */
+}
+
+.registration-form .btn-cancel:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .registration-form {
+    padding: 20px;
+  }
+}
+
+
+ 
+
